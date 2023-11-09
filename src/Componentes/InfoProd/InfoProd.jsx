@@ -1,16 +1,21 @@
 import { useParams } from "react-router-dom";
 import Products from '../Productos/data';
+
+import './InfoProd.css';
+
 const InfoProd = () => {
     let { id } = useParams();;
     let Product = Products.find(prod => prod.Id == id);
     return (
         <div className="InfoProd">
-            <h1>{Product.Nombre}</h1>
             <img src={Product.Imagen2} alt="" />
-            <p>{Product.Descripcion}</p>
-            <p>{Product.Precio}</p>
-            <p>{Product.Stock}</p>
-            <p>{Product.SKU}</p>
+            <div className="Info">
+                <h1 className="Nombre">{Product.Nombre}</h1>
+                <p className="Precio">{Product.Precio}</p>
+                <p className="Descripcion">{Product.Descripcion}</p>
+                <p className="Stock">{Product.Stock}</p>
+                <p className="SKU">{Product.SKU}</p>
+            </div>
         </div>
     );
 }

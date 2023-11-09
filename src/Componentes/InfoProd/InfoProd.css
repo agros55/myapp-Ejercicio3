@@ -1,0 +1,18 @@
+.InfoProd {
+    display: flex;
+    align-items: center;
+    height: 75vh;
+}
+
+.InfoProd img {
+    padding: 20px;
+}
+
+.InfoProd .Info {
+    padding: 30px;
+}
+
+.InfoProd .Precio {
+    font-size: 24px;
+    font-weight: bold;
+}
