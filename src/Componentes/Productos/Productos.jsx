@@ -23,7 +23,7 @@ const Productos = () => {
     return (
         // Devuelve una sección con los Productos
         <section className='Productos'>
-            <h2>Productos</h2>
+            <h2>PRODUCTOS</h2>
             <div className="Lista-Productos">
                 {listProducts}
             </div>

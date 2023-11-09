@@ -6,7 +6,7 @@ const InfoProd = () => {
     return (
         <div className="InfoProd">
             <h1>{Product.Nombre}</h1>
-            <img src={Product.Imagen} alt="" />
+            <img src={Product.Imagen2} alt="" />
             <p>{Product.Descripcion}</p>
             <p>{Product.Precio}</p>
             <p>{Product.Stock}</p>
