@@ -11,7 +11,7 @@ const Producto = ({ Id, Imagen, Nombre, Descripcion, Precio, SKU, Stock }) => {
             <h2 className='Item Nombre'>{Nombre}</h2>
             <div className="Compra">
                 <h3 className='Item Precio'>{Precio}</h3>
-                <button className='Item Btn' onClick={() => navigate("/producto/" + Id)}>Comprar</button>
+                <button className='Item Btn' onClick={() => navigate("/myapp-Ejercicio3/producto/" + Id)}>Comprar</button>
             </div>
             <div className="Compra">
                 <p className='Item SKU'>SKU: {SKU}</p>
