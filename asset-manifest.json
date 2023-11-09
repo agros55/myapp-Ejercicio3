@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/agros55/myapp-Ejercicio3.git/static/css/main.7f47b820.css",
+    "main.js": "/agros55/myapp-Ejercicio3.git/static/js/main.233bd142.js",
+    "static/js/787.1937f22b.chunk.js": "/agros55/myapp-Ejercicio3.git/static/js/787.1937f22b.chunk.js",
+    "index.html": "/agros55/myapp-Ejercicio3.git/index.html",
+    "main.7f47b820.css.map": "/agros55/myapp-Ejercicio3.git/static/css/main.7f47b820.css.map",
+    "main.233bd142.js.map": "/agros55/myapp-Ejercicio3.git/static/js/main.233bd142.js.map",
+    "787.1937f22b.chunk.js.map": "/agros55/myapp-Ejercicio3.git/static/js/787.1937f22b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f47b820.css",
+    "static/js/main.233bd142.js"
+  ]
+}
