@@ -21,11 +21,11 @@ La aplicación cuenta con un Header donde se encuentra un logo y el menú de nav
 ## DEMO
 
 ### Pantalla de inicio
-<image src="./inicio.png" alt="Descripción de la imagen">
+<image src="./Inicio.png" alt="Descripción de la imagen">
 
 
 ### Pantalla de información de Producto
-<image src="./info.png" alt="Descripción de la imagen">
+<image src="./Info.png" alt="Descripción de la imagen">
 
 ###  Vista Responsive
 <image src="./respon.png" alt="Descripción de la imagen">
