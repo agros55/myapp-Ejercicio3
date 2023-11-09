@@ -13,6 +13,7 @@ function App() {
       <Header />
       <BrowserRouter>
         <Routes>
+          <Route path="/" element={<Main />} />
           <Route path="/myapp-Ejercicio3/" element={<Main />} />
           <Route path="/myapp-Ejercicio3/producto/:id" element={<InfoProd />} />
           <Route render={() => <h1>Not found!</h1>} />
