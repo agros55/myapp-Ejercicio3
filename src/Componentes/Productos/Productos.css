@@ -1,0 +1,8 @@
+.Lista-Productos {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: repeat(auto-fit,
+            minmax(235px,
+                1fr));
+    gap: 15px;
+}
