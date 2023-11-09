@@ -1,11 +1,17 @@
 .InfoProd {
-    display: flex;
+    display: grid;
+    padding: 10px;
+    grid-template-columns: repeat(auto-fit,
+            minmax(350px,
+                1fr));
+    gap: 15px;
+    justify-items: center;
     align-items: center;
-    height: 75vh;
 }
 
 .InfoProd img {
     padding: 20px;
+    width: 95%;
 }
 
 .InfoProd .Info {

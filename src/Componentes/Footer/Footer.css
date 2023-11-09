@@ -1,32 +1,4 @@
 .Footer {
     height: 10vh;
-    padding: 10px;
     background-color: steelblue;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.Footer img {
-    height: 100%;
-}
-
-.Footer .Nav {
-    display: flex;
-    flex-direction: column;
-}
-
-.Footer a {
-    text-align: center;
-    text-decoration: none;
-    color: #fff;
-    padding: 0 15px;
-    border-radius: 10px;
-    transition: all .3s ease;
-}
-
-.Footer a:hover {
-    background-color: deepskyblue;
-    color: #fff;
-    transform: scale(1.1);
 }
