@@ -1,10 +1,10 @@
-# Getting Started with Create React App
+# myapp - Ejercicio 3 - Tienda Online con React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto corresponde al Ejercicio 3 del Curso "DESARROLLADOR WEB CON REACT JS"
 
-## Available Scripts
+## Descripción
 
-In the project directory, you can run:
+El proyecto consiste en una aplicación React en el que se muestra una página con un listado de productos (organizados en tarjetas), donde cada producto muestra su imágen, nombre y precio. Además cuenta con un botón "Ver más", que renderiza la página de detalle donde se ve la información completa del producto.
 
 ### `npm start`
 

@@ -10,6 +10,7 @@ const Productos = () => {
     // Creando tarjeta de Producto por cada registro
     const listProducts = Productos.map(Product =>
         <Producto
+            Id={Product.Id}
             Imagen={Product.Imagen}
             Nombre={Product.Nombre}
             Precio={Product.Precio}
